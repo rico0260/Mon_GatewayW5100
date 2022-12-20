@@ -44,7 +44,7 @@
 #include <Arduino.h>
 
 // Enable debug prints to serial monitor
-//#define MY_DEBUG
+#define MY_DEBUG
 
 // Enable and select radio type attached
 #define MY_RADIO_RF24
@@ -57,7 +57,7 @@
 
 //MY_RF24_CHANNEL par defaut 76
 //#define MY_RF24_CHANNEL 86
-#define MY_RF24_CHANNEL 81
+#define MY_RF24_CHANNEL 76
 
 // Enable gateway ethernet module type
 #define MY_GATEWAY_W5100
