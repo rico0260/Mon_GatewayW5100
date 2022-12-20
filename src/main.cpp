@@ -56,8 +56,6 @@
 //#define MY_RF24_PA_LEVEL RF24_PA_MAX
 
 //MY_RF24_CHANNEL par defaut 76
-//#define MY_RF24_CHANNEL 86
-#define MY_RF24_CHANNEL 76
 
 // Enable gateway ethernet module type
 #define MY_GATEWAY_W5100
@@ -86,13 +84,6 @@
 // Enable UDP communication
 //#define MY_USE_UDP  // If using UDP you need to set MY_CONTROLLER_IP_ADDRESS or MY_CONTROLLER_URL_ADDRESS below
 
-// Enable MY_IP_ADDRESS here if you want a static ip address (no DHCP)
-//#define MY_IP_ADDRESS 192,168,1,87
-
-// If using static ip you can define Gateway and Subnet address as well
-//#define MY_IP_GATEWAY_ADDRESS 192,168,1,1
-//#define MY_IP_SUBNET_ADDRESS 255,255,255,0
-
 // Renewal period if using DHCP
 //#define MY_IP_RENEWAL_INTERVAL 60000
 
@@ -107,8 +98,8 @@
 // The MAC address can be anything you want but should be unique on your network.
 // Newer boards have a MAC address printed on the underside of the PCB, which you can (optionally) use.
 // Note that most of the Arduino examples use  "DEAD BEEF FEED" for the MAC address.
-#define MY_MAC_ADDRESS 0x90, 0xA2, 0xDA, 0x0D, 0xA5, 0x13 //0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
-
+//#define MY_MAC_ADDRESS 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
+#include <perso.h>
 
 // Enable inclusion mode if your HA Controller supports it (e.g. Vera Controller)
 #define MY_INCLUSION_MODE_FEATURE
