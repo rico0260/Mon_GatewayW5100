@@ -56,6 +56,7 @@
 //#define MY_RF24_PA_LEVEL RF24_PA_MAX
 
 //MY_RF24_CHANNEL par defaut 76
+#include <perso.h>
 
 // Enable gateway ethernet module type
 #define MY_GATEWAY_W5100
@@ -99,7 +100,6 @@
 // Newer boards have a MAC address printed on the underside of the PCB, which you can (optionally) use.
 // Note that most of the Arduino examples use  "DEAD BEEF FEED" for the MAC address.
 //#define MY_MAC_ADDRESS 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
-#include <perso.h>
 
 // Enable inclusion mode if your HA Controller supports it (e.g. Vera Controller)
 #define MY_INCLUSION_MODE_FEATURE
